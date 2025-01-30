@@ -1,0 +1,73 @@
+.Navbar{
+  background-color: #FFFFFF;
+  /* color: #FFFFFF; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  width: 1212px;
+  height: 67px;
+  margin-left: 120px;
+  margin-top: 20px;
+  
+}
+
+.Pages{
+  display: flex;
+  gap: 20px;
+  /* background-color: #1F1F1F; */
+  color: #1F1F1F;
+  border-radius: 100px;
+  width: auto;
+  padding: 8px 24px 8px 24px;
+  font-weight: 100;
+  font-family: Inter;
+}
+
+.p1:hover{
+  color: #317FA7;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.p2:hover{
+  color: #317FA7;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.p3:hover{
+  color: #317FA7;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.p4:hover{
+  color: #317FA7;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.p5:hover{
+  color: #317FA7;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.contact{
+  background-color: #42D2FF;
+  color: #FFFFFF;
+  border-radius: 100px;
+}
+
+.contact:hover{
+  transform: scale(1.1);
+  transition: 1s;
+  cursor: pointer;
+}
+
+
+
+
+
+
