@@ -7,12 +7,12 @@ import { useEffect } from "react";
 const footer = () => {
   return (
     <footer data-aos="fade-up" className="bg-gray-100 py-10 relative">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 px-4 md:px-0">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 -px-30 md:px-20">
         <div>
           <img
             src="https://ik.imagekit.io/jncw2kb8u/LOGO.png?updatedAt=1738224610877"
             alt="Logo"
-            className="h-10 mx-5"
+            className="h-20 mx-5"
           />
           <p className="text-gray-600 text-sm mx-5">
             We are more than just an IT services provider. We are a team of dedicated professionals who
@@ -26,7 +26,7 @@ const footer = () => {
             <a href="#" className="text-green-500 text-lg"><FaWhatsapp /></a>
           </div>
         </div>
-        <div>
+        <div className='mt-10 mx-5'>
           <h3 className="font-bold">Quick Navigation</h3>
           <ul className="text-gray-600 mt-2 space-y-1">
             <li><a href="/" className="hover:text-blue-500">Home</a></li>
@@ -36,7 +36,7 @@ const footer = () => {
             <li><a href="/contact" className="hover:text-blue-500">Contact Us</a></li>
           </ul>
         </div>
-        <div>
+        <div className='mt-10 mx-5'>
           <h3 className="font-bold">Our Services</h3>
           <ul className="text-gray-600 mt-2 space-y-1">
             <li><a href="#home" className="hover:text-blue-500">Digital Marketing</a></li>
@@ -46,7 +46,7 @@ const footer = () => {
             <li><a href="#contact" className="hover:text-blue-500">Animated Videos</a></li>
           </ul>
         </div>
-        <div>
+        <div className='mt-10 mx-5'>
           <h3 className="font-bold">Contact Us</h3>
           <p className="text-gray-600 mt-2">
             <strong>Address:</strong> GM Plaza, Phase -7 Industrial Sector-73, Mohali, India
