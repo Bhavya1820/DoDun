@@ -61,13 +61,13 @@ function Navbar() {
       }, []);
 
   return (
-    <nav data-aos="fade-down" className="absolute w-full z-50">
+    <nav className="relative w-full z-50 bg-white border-b border-gray-300 ">
       <div className="container mx-auto flex items-center justify-between px-4">
         <a href="/">
         <img
           src="https://ik.imagekit.io/jncw2kb8u/image.png?updatedAt=1738665004511"
           alt="Logo"
-          className="h-25 w-50"
+          className="h-20 w-50"
           
         />
         </a>

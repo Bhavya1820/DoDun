@@ -8,6 +8,7 @@ import News from "./home/news";
 import Ques from "./home/ques";
 import Client from "./home/client";
 import Touch from "./home/touch";
+import Cards from "./home/cards";
 
 const home = () => {
   return (
@@ -15,6 +16,7 @@ const home = () => {
       <Navbar />
       <Picture />
       <About />
+      <Cards />
       <Service />
       <News />
       <Ques />
